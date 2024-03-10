@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(10, 8, 9);
+    border: 4px double rgb(82, 82, 152);
+
+}
+
+
+header{
+    background-color: rgb(82, 82, 152);
+    color: white;
+    padding: 1%;
+    border-bottom: 4px solid rgb(248, 245, 245);
+    
+}
+
+header a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 2%;
+    padding: 1%;
+    font-size: 1.2em;
+}
+
+header a:hover{
+    transition: all 0.02s ease-in-out;
+    background-color: rgb(49, 113, 113);
+}
+header .headers{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1%;
+}
+
+header .header-one{
+    grid-column: 1/3;
+    width: 90%;
+    height: 100%; 
+    
+}
+header .header-two{
+    grid-column: 3/5;
+    border-right: 2px solid white;
+}
+header .header-three{
+    grid-column: 6/6;
+    
+}
+
+
+main{
+    background-color: rgb(249, 249, 252);
+    margin: 2%;
+    padding: 2%;
+    border: 4px solid rgb(82, 82, 152);
+    
+}
+main h1, h2, h3{
+    background-color: rgb(82, 82, 152);
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+main .main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2%;
+}
+.links a{
+    text-decoration: none;
+    color: rgb(250, 9, 9);
+    font: 1em "Arial";
+    padding: 2%;
+}
+
+.links a:hover{
+    transition: all 0.05s ease-in;
+    color: wheat;
+    background-color: rgb(82, 82, 152);
+    
+    
+    
+}
+main .main .right-one .links a{
+    display: block;
+    text-align: center;
+}
+
+main .main .right-one, .right-two{
+    grid-column: 2/2;
+}
+
+.main .left{
+    border-right: 2px solid rgb(49, 49, 133);
+}
+.main .left img{
+    display: block;
+    font-size: 150%;
+}
+
+
+footer{
+    color: white;
+    background-color: rgb(49, 49, 133);
+}
+footer .footer{
+    display: grid;
+    
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2%;
+}
+.infos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.footer .infos{
+    grid-column: 1/2;
+    
+}
+.footer .copyright{
+    
+    grid-row: 2/2;
+    text-align: center;
+}
