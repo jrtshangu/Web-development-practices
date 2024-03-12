@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    font-family: Arial, monospace, Bradley Hand ITC;
+}
+header{
+    background-color: #162954;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+.headers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2%;
+    
+}
+header .headers .logo img{
+    width: 50%;
+    
+    grid-column: 1/2;
+}
+.header-nav{
+    grid-column: 3;
+}
+.headers .nav-two{
+    grid-column: 4/4;
+}
+
+
+
+
+
+
+main{
+    background-color: #8bacf8;
+}
+
+footer{
+    background-color: #162954;
+}
